@@ -1,0 +1,66 @@
+header {
+  background-color: #c40e0e;
+  color: white;
+  text-align: center;
+  height: 150px
+}
+
+main {
+  background-color: #f1efef;
+ }
+
+footer {
+  background-color: #c40e0e;
+  color: white;
+  height: 50px;
+}
+
+h2, h3 {
+  font-family: Didot, 'Times New Roman', serif;
+}
+
+ p {
+   font-family: Georgia, 'Times New Roman', serif;
+ } 
+  
+h1, h2, h3, p {
+text-align: center
+}
+
+/* moving the list to the center of the page with the bullets*/
+ul {
+text-align: center;
+display: inline-block;
+}
+/*moving the list to the center of page with numbers*/
+ol {
+  text-align: center;
+  display: inline-block
+}
+
+/* removing white space between header, main, footer */
+header, main, footer {
+  margin: 0;
+  padding: 1px;
+}
+.large-text {
+  font-family: luminari;
+  font-size: 50px;
+}
+.italics {
+  font-style: italic;
+}
+/*center photo*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  font-family: 'Times New Roman', arial, serif;
+}
+ /* link styling*/
+a:link {color: darkblue}
+a:visited {color: purple}
+a:hover {color: red}
+a:active {color:lightblue}
